@@ -51,7 +51,9 @@ these images on an arm system, no modification to them or the tag is needed, the
   * `ghrc.io/andyondrya/yolks:go_1.22`
 * [`go1.23`](/go/1.23)
   * `ghrc.io/andyondrya/yolks:go_1.23`
-
+* [`go1.24`](/go/1.24)
+  * `ghrc.io/andyondrya/yolks:go_1.24`
+  
 ### [Java](/java)
 
 * [`java8`](/java/8)
