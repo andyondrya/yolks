@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * 1"
   push:
     branches:
-      - main
+      - master
     paths:
       - mariadb/**
 permissions:
@@ -53,4 +53,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/${{ steps.lower-repo.outputs.repository }}/yolks:mariadb_${{ matrix.tag }}
-            ${{ github.repository_owner == 'ondryadev' && format('ghcr.io/ondryadev/yolks:mariadb_{0}', matrix.tag) || '' }}
+            ${{ github.repository_owner == 'ondryadev' && format('ghcr.io/andyondrya/yolks:mariadb_{0}', matrix.tag) || '' }}

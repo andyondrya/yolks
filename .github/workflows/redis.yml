@@ -47,4 +47,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/${{ steps.lower-repo.outputs.repository }}/yolks:redis_${{ matrix.tag }}
-            ${{ github.repository_owner == 'ondryadev' && format('ghcr.io/ondryadev/yolks:redis_{0}', matrix.tag) || '' }}
+            ${{ github.repository_owner == 'ondryadev' && format('ghrc.io/andyondrya/yolks:redis_{0}', matrix.tag) || '' }}
